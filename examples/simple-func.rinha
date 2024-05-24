@@ -1,0 +1,5 @@
+let show = fn (a, b) => {
+    a - b
+};
+
+print(show(10, 20))

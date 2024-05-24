@@ -1,0 +1,9 @@
+let recursion = fn (n) => {
+  if (n < 2) {
+    recursion(n + 1)
+  } else {
+    n
+  }
+};
+
+print("recur: " + recursion(0))
